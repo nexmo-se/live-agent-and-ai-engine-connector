@@ -21,12 +21,12 @@ take note of it (as it will be needed as **`DEEPGRAM_API_KEY`** in the next sect
 
 ### Local deployment
 
-For a `local deployment`, you may use ngrok (an Internet tunneling service) for both this Connector application and the [Voice API application](https://github.com/nexmo-se/voice-to-ai-engines) with [multiple ngrok tunnels](https://ngrok.com/docs/agent/config/v2/#tunnel-configurations).
+For a `local deployment`, you may use ngrok (an Internet tunneling service) for both this Connector application and the [Voice API application](https://github.com/nexmo-se/live-agent-and-ai-engine-app) with [multiple ngrok tunnels](https://ngrok.com/docs/agent/config/v2/#tunnel-configurations).
 
 To do that, [download and install ngrok](https://ngrok.com/download).</br>
 Sign in or sign up with [ngrok](https://ngrok.com/), from the ngrok web UI menu, follow the **Setup and Installation** guide.
 
-Set up two domains, one to forward to the local port 6000 (as this Connector application will be listening on port 6000), the other one to the local port 8000 for the [Voice API application](https://github.com/nexmo-se/voice-to-ai-engines).
+Set up two domains, one to forward to the local port 6000 (as this Connector application will be listening on port 6000), the other one to the local port 8000 for the [Voice API application](https://github.com/nexmo-se/live-agent-and-ai-engine-app).
 
 Start ngrok to start both tunnels that forward to local ports 6000 and 8000, e.g.<br>
 `ngrok start httpbin demo` (per this [sample yaml configuration file](https://ngrok.com/docs/agent/config/v2/#define-two-tunnels-named-httpbin-and-demo), but needs port 6000 and 8000 as actual values)
