@@ -4,7 +4,9 @@
 
 TO BE WRITTEN
 
-and SOLUTION ARCHITECTURE DIAGRAM TO BE DRAWN
+## Solution diagram
+
+See solution diagram in the peer Voice Application [repository](https://github.com/nexmo-se/live-agent-and-ai-engine-app).
 
 ## Transcripts
 
